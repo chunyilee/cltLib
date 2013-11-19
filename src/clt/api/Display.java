@@ -27,7 +27,6 @@ public final class Display extends DisplayEventSource {
     ConnectAdapter adapter;
 
     public enum DisplayType {
-
         RS232, Ethernet
     };
     public DisplayType displayType = DisplayType.RS232;
